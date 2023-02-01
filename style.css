@@ -1,0 +1,78 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 1.5%;
+    padding-left: 5%;
+}
+
+
+.image{
+    width: 30%;
+    padding-top: 5%;
+}
+.message{
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    padding: 3% 40% 0% 10%;
+    
+    line-height: 1.5em;
+    font-family: monospace;
+}
+.title{
+    width: 70%;
+    line-height: 1.5em;
+    font-size: 2.2rem;
+}
+
+.message2{
+    color:slategrey;
+    width: 40%;
+    
+    
+}
+.btn{
+    font-size: 0.5em;
+    text-align: center;
+    margin: 20px 0px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    text-align: center;
+    color: silver;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+
+@media (max-width: 750px) {
+    .footer{
+        margin-top: 45%;
+        position: relative;
+        left: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .image{
+        width: 250px;
+    }
+    .message{
+        position: absolute;
+        text-align: left;
+        display: block;
+        width: 100%;
+        padding: 3%;
+        
+    } 
+    .footer{
+        margin-top: 100%;
+    }
+}
