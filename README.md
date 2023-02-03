@@ -27,16 +27,15 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/freman226/404-Not-found/blob/main/Resources/Screenshot.png)
 
 
 ## Features
@@ -48,6 +47,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://github.com/freman226)
 - GitHub [@freman226](https://github.com/freman226)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
