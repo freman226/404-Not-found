@@ -3,32 +3,40 @@ body{
     padding-top: 1.5%;
     padding-left: 5%;
 }
+.notFound{
+    margin-bottom: 4rem;
+}
 
-
+.container{
+    display: flex;
+    margin-bottom: 10rem;
+}
 .image{
     width: 30%;
-    padding-top: 5%;
+    padding-top: 70px;
+    
 }
 .message{
-    position: absolute;
-    text-align: left;
-    display: inline-block;
-    width: 40%;
-    padding: 3% 40% 0% 10%;
     
+    text-align: left;
+    
+    width: 40%;
+    padding: 1% 0% 0% 10%;
+    margin-left: 50px;
+    margin-right: 100px;
     line-height: 1.5em;
     font-family: monospace;
 }
 .title{
     width: 70%;
     line-height: 1.5em;
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 .message2{
     color:slategrey;
     width: 40%;
-    
+    font-size: 1rem;
     
 }
 .btn{
@@ -42,37 +50,35 @@ body{
 }
 
 .footer{
-    position: absolute;
-    bottom: 0;
-    left: 40%;
+   
     text-align: center;
     color: silver;
     font-weight: 100;
     font-size: smaller;
 }
-
-
-@media (max-width: 750px) {
-    .footer{
-        margin-top: 45%;
-        position: relative;
-        left: 0;
-    }
+.userLink{
+    color: silver;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
+    .container{
+        display: block;
+        text-align: center;
+    }
     .image{
         width: 250px;
     }
     .message{
-        position: absolute;
+        position: relative;
         text-align: left;
         display: block;
         width: 100%;
         padding: 3%;
+        margin-right: 10px;
         
     } 
-    .footer{
-        margin-top: 100%;
+    .message2{
+        width: 70%;
     }
+  
 }
